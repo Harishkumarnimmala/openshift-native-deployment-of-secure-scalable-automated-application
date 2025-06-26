@@ -7,6 +7,7 @@ spec:
     type: Git
     git:
       uri: https://github.com/Harishkumarnimmala/openshift-native-deployment-of-secure-scalable-automated-application.git
+      ref: master
       contextDir: application-stack/backend
   strategy:
     type: Docker
