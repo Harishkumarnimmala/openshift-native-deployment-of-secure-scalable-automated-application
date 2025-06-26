@@ -11,7 +11,10 @@ spec:
       contextDir: application-stack/backend
   strategy:
     type: Docker
+    dockerStrategy:
+      dockerfilePath: Dockerfile
   output:
     to:
       kind: ImageStreamTag
       name: backend:latest
+
