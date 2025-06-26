@@ -8,7 +8,7 @@ spec:
     git:
       uri: https://github.com/Harishkumarnimmala/openshift-native-deployment-of-secure-scalable-automated-application.git
       ref: master
-      contextDir: application-stack/backend
+    contextDir: application-stack/backend
   strategy:
     type: Docker
     dockerStrategy:
@@ -17,4 +17,3 @@ spec:
     to:
       kind: ImageStreamTag
       name: backend:latest
-
