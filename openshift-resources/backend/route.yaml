@@ -7,4 +7,6 @@ spec:
     kind: Service
     name: backend
   port:
-    targetPort: 80
+    targetPort: http
+  tls:
+    termination: edge
